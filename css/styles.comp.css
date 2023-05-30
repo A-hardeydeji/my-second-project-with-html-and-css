@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+section {
+  text-align: center;
+  max-width: 120rem;
+  margin: 20rem auto; }
+
+.container {
+  display: flex;
+  max-width: 50rem;
+  margin: 0 auto; }
+
+.header {
+  text-align: center;
+  border-radius: 15px;
+  padding: 2rem 4rem;
+  color: white;
+  background-image: linear-gradient(to bottom, #4848ef, #1f1f8c); }
+  .header-primary-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem; }
+  .header-secondary-text {
+    font-weight: bolder;
+    font-size: 4rem;
+    letter-spacing: 0.3rem; }
+  .header-circular-container {
+    padding: 3rem 2rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #3636ff, #2c2c8700);
+    margin: 0 auto; }
+  .header-tertiary-text {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+
+.block-text {
+  font-weight: lighter;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  display: block;
+  letter-spacing: 0; }
+
+.paragraph-container {
+  font-size: 1.1rem;
+  max-width: 13rem;
+  margin: 0 auto; }
+
+.summary {
+  width: 45%;
+  padding: 2rem 3rem;
+  color: black;
+  background-color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 3px 6px 10px 1px rgba(165, 165, 165, 0.2);
+  transform: translateX(-10px);
+  z-index: -1; }
+  .summary-heading {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: bolder; }
+  .summary-container {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 7px; }
+  .summary-icon {
+    color: orangered; }
+  .summary-text {
+    margin-right: auto;
+    margin-left: 0.7rem; }
+  .summary-span {
+    font-weight: bolder;
+    margin-right: 0.5rem; }
+  .summary-btn {
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1rem 6rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.676);
+    color: white; }
+
+.orangered {
+  color: orangered; }
+
+.yellow {
+  color: #7b7b0b; }
+
+.green {
+  color: blue; }
+
+.purple {
+  color: purple; }
+
+.bg-red {
+  background-color: rgba(255, 166, 0, 0.1); }
+
+.bg-yellow {
+  background-color: rgba(172, 255, 47, 0.1); }
+
+.bg-blue {
+  background-color: rgba(0, 128, 0, 0.1); }
+
+.bg-purple {
+  background-color: rgba(255, 0, 0, 0.1); }
+
+footer {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -15rem; }
